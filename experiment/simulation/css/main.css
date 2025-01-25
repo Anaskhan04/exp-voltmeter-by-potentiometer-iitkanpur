@@ -6,10 +6,16 @@
   margin: 0px;
   padding: 0px;
 }
+
+#refreshtext{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
 .simulation {
   border: 2px solid rgb(15, 15, 15);
   margin: 100px;
-  margin-top: 40px;
+  margin-top: 10px;
   border-radius: 10px;
   padding: 20px;
   text-align: start;

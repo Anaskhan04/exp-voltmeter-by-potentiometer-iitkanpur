@@ -1,22 +1,28 @@
-A) Calibrating a voltmeter using a potentiometer is as follows:
-<br>
-1. Connect the potentiometer to a power source and adjust its resistance to produce a known voltage.
-2. Connect the voltmeter in parallel with the potentiometer, so that it measures the voltage across the potentiometer.
-3. Compare the reading of the voltmeter with the known voltage, and if necessary, adjust the voltmeter's sensitivity until it gives a correct reading. This can be done by adjusting the internal resistance of the voltmeter or by using a multiplier resistor.
-4. Repeat the procedure for different values of voltage to ensure the voltmeter is calibrated over its entire range.<br>
 
-Note: The above procedure is a general outline and may vary depending on the specific voltmeter being used. It is important to consult the manufacturer's instructions before attempting to calibrate the voltmeter.<br>
+<h1> Calibration of Instruments Using a Potentiometer</h1>
 
-B) Calibrating an ammeter using a potentiometer is as follows:
-<br>
-1. Connect the potentiometer to a power source and adjust its resistance to produce a known voltage.
-2. Connect the ammeter in series with the potentiometer, so that it measures the current flowing through the potentiometer.
-3. Adjust the ammeter's sensitivity until it gives a correct reading of the current. This can be done by adjusting the ammeter's internal resistance or by using a shunt resistor.
-4. Repeat the procedure for different values of current to ensure the ammeter is calibrated over its entire range.<br>
+A) Calibrating a Voltmeter Using a Potentiometer
 
-Note: The above procedure is a general outline and may vary depending on the specific ammeter being used. It is important to consult the manufacturer's instructions before attempting to calibrate the ammeter.
+1. Connect the potentiometer to a stable DC power source.
+2. Adjust the potentiometer to establish a uniform potential gradient along its length.
+3. Determine the balancing length (`l`) on the potentiometer for a known reference voltage (`E`) and calculate the potential gradient (`k = E / l`).
+4. Connect the voltmeter in parallel across the potentiometer.
+5. Compare the voltmeter reading with the voltage calculated using the potentiometer balancing length.
+6. Record any deviations and apply corrections as necessary.
+7. Repeat the process for various voltages to check the voltmeter’s accuracy across its range.
 
 
+---
+
+B) Calibrating an Ammeter Using a Potentiometer
+
+1. Connect the potentiometer to a stable DC power source.
+2. Include a standard resistor (`R`) of known value in the circuit and adjust the potentiometer to produce a measurable voltage (`V`) across `R`.
+3. Calculate the current (`I = V / R`) flowing through the circuit using Ohm’s law.
+4. Connect the ammeter in series with the circuit to measure the same current.
+5. Compare the ammeter reading with the calculated current.
+6. Record any deviations and apply corrections as necessary.
+7. Repeat the procedure for different current values to verify the ammeter’s accuracy over its range.
 
 
 

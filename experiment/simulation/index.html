@@ -21,33 +21,34 @@
 	<div class="side-panel" id="side-panel">
 		<p id="procedure-content"></p>
 		<ul id="lists">
-			<h2 class="voltmeter">Calibrating a Voltmeter using a Potentiometer is as follows:</h2>
+			<h2 class="voltmeter">Calibrating a Voltmeter Using a Potentiometer:</h2>
 			<ul>
-				<li>Connect the potentiometer to a power source and adjust its resistance to produce a known voltage.
-				</li>
-				<li>Connect the voltmeter in parallel with the potentiometer, so that it measures the voltage across the
-					potentiometer.</li>
-				<li>Compare the reading of the voltmeter with the known voltage, and if necessary, adjust the
-					voltmeter's sensitivity until it gives a correct reading. This can be done by adjusting the internal
-					resistance of the voltmeter or by using a multiplier resistor.</li>
-				<li>Repeat the procedure for different values of voltage to ensure the voltmeter is calibrated over its
-					entire range.</li>
+				<li>Connect the potentiometer to a stable DC power source.</li>
+				<li>Adjust the potentiometer to establish a uniform potential gradient along its length.</li>
+				<li>Determine the balancing length (<code>l</code>) on the potentiometer for a known reference voltage (<code>E</code>) and calculate the potential gradient (<code>k = E / l</code>).</li>
+				<li>Connect the voltmeter in parallel across the potentiometer.</li>
+				<li>Compare the voltmeter reading with the voltage calculated using the potentiometer balancing length.</li>
+				<li>Record any deviations and apply corrections as necessary.</li>
+				<li>Repeat the process for various voltages to check the voltmeter’s accuracy across its range.</li>
 			</ul>
-			<h2 class="Ammeter">Calibrating an Ammeter using a Potentiometer is as follows:</h2>
+			<h2 class="ammeter">Calibrating an Ammeter Using a Potentiometer:</h2>
 			<ul>
-				<li>Connect the potentiometer to a power source and adjust its resistance to produce a known voltage.
-				</li>
-				<li>Connect the ammeter in series with the potentiometer, so that it measures the current flowing
-					through the potentiometer.</li>
-				<li>Adjust the ammeter's sensitivity until it gives a correct reading of the current. This can be done
-					by adjusting the ammeter's internal resistance or by using a shunt resistor.</li>
-				<li>Repeat the procedure for different values of current to ensure the ammeter is calibrated over its
-					entire range.</li>
-
+				<li>Connect the potentiometer to a stable DC power source.</li>
+				<li>Include a standard resistor (<code>R</code>) of known value in the circuit and adjust the potentiometer to produce a measurable voltage (<code>V</code>) across <code>R</code>.</li>
+				<li>Calculate the current (<code>I = V / R</code>) flowing through the circuit using Ohm’s law.</li>
+				<li>Connect the ammeter in series with the circuit to measure the same current.</li>
+				<li>Compare the ammeter reading with the calculated current.</li>
+				<li>Record any deviations and apply corrections as necessary.</li>
+				<li>Repeat the procedure for different current values to verify the ammeter’s accuracy over its range.</li>
 			</ul>
+		</ul>
+		
 	</div>
 	<div class="heading">
 		<h1>To calibrate the given ammeter and voltmeter by potentiometer.</h1>
+	</div>
+	<div>
+		<h4 id="refreshtext">Always Refresh the page when Switching between Ammeter and Voltmeter.</h4>
 	</div>
 	<div class="simulation">
 		<label id="start">Select Procedue:
